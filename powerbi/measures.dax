@@ -1,0 +1,101 @@
+// =====================================================================
+// Power BI DAX measures  |  paste into a table called "_Measures"
+// (Home > Enter Data > create an empty table named _Measures, then New measure)
+// Tables used: student_summary, student_subject, fact_attendance, intervention_plan
+// =====================================================================
+
+// ---------- Thresholds (What-if parameters: Modeling > New parameter) ----------
+// Pass Mark          = GENERATESERIES(30, 50, 1)   default 40
+// Low Attendance     = GENERATESERIES(60, 90, 1)   default 75
+// Low Assignment     = GENERATESERIES(50, 80, 1)   default 65
+// Power BI creates [Pass Mark Value], [Low Attendance Value], [Low Assignment Value]
+
+// ---------- Headline KPIs ----------
+Total Students = DISTINCTCOUNT ( student_summary[student_id] )
+
+Avg Score % = AVERAGE ( student_summary[overall_pct] )
+
+Avg Attendance % = AVERAGE ( student_summary[attendance_pct] )
+
+Avg Assignment % = AVERAGE ( student_summary[assignment_pct] )
+
+High Risk Students =
+CALCULATE ( [Total Students], student_summary[risk_level] = "High" )
+
+High Risk % = DIVIDE ( [High Risk Students], [Total Students] )
+
+Needs Support Students =
+CALCULATE ( [Total Students], student_summary[overall_pct] < 45 )
+
+Low Attendance Students =
+CALCULATE ( [Total Students], student_summary[attendance_pct] < [Low Attendance Value] )
+
+// ---------- Subject analysis ----------
+Subject Avg Score % = AVERAGE ( student_subject[score_pct] )
+
+Subject Fail Rate =
+DIVIDE (
+    CALCULATE ( COUNTROWS ( student_subject ), student_subject[score_pct] < [Pass Mark Value] ),
+    COUNTROWS ( student_subject )
+)
+
+Subject Below 50 Rate =
+DIVIDE (
+    CALCULATE ( COUNTROWS ( student_subject ), student_subject[score_pct] < 50 ),
+    COUNTROWS ( student_subject )
+)
+
+Subject Support Flag =
+IF ( [Subject Fail Rate] >= 0.10, "High Priority", "Monitor" )
+
+// Lowest-scoring subject name in the current filter context
+Weakest Subject =
+VAR t = ADDCOLUMNS ( VALUES ( student_subject[subject_name] ), "@s", [Subject Avg Score %] )
+RETURN MINX ( TOPN ( 1, t, [@s], ASC ), student_subject[subject_name] )
+
+// ---------- Driver analysis ----------
+// Score gap between best and worst attendance bands
+Attendance Score Gap =
+VAR hi = CALCULATE ( [Avg Score %], student_summary[attendance_band] = "1. 90%+" )
+VAR lo = CALCULATE ( [Avg Score %], student_summary[attendance_band] = "4. Below 75%" )
+RETURN hi - lo
+
+Assignment Score Gap =
+VAR hi = CALCULATE ( [Avg Score %], student_summary[assignment_band] = "1. 90%+" )
+VAR lo = CALCULATE ( [Avg Score %], student_summary[assignment_band] = "4. Below 65%" )
+RETURN hi - lo
+
+// Pearson correlation between two student-level columns (DAX has no CORREL)
+Corr Attendance vs Score =
+VAR n  = COUNTROWS ( student_summary )
+VAR sx = SUM ( student_summary[attendance_pct] )
+VAR sy = SUM ( student_summary[overall_pct] )
+VAR sxy = SUMX ( student_summary, student_summary[attendance_pct] * student_summary[overall_pct] )
+VAR sx2 = SUMX ( student_summary, student_summary[attendance_pct] ^ 2 )
+VAR sy2 = SUMX ( student_summary, student_summary[overall_pct] ^ 2 )
+RETURN DIVIDE ( n * sxy - sx * sy, SQRT ( n * sx2 - sx ^ 2 ) * SQRT ( n * sy2 - sy ^ 2 ) )
+
+Corr Assignment vs Score =
+VAR n  = COUNTROWS ( student_summary )
+VAR sx = SUM ( student_summary[assignment_pct] )
+VAR sy = SUM ( student_summary[overall_pct] )
+VAR sxy = SUMX ( student_summary, student_summary[assignment_pct] * student_summary[overall_pct] )
+VAR sx2 = SUMX ( student_summary, student_summary[assignment_pct] ^ 2 )
+VAR sy2 = SUMX ( student_summary, student_summary[overall_pct] ^ 2 )
+RETURN DIVIDE ( n * sxy - sx * sy, SQRT ( n * sx2 - sx ^ 2 ) * SQRT ( n * sy2 - sy ^ 2 ) )
+
+// ---------- Attendance trend (uses fact_attendance) ----------
+Monthly Attendance % =
+DIVIDE ( SUM ( fact_attendance[days_present] ), SUM ( fact_attendance[working_days] ) )
+
+// ---------- Interventions ----------
+Students Needing Intervention = COUNTROWS ( intervention_plan )
+
+Priority 1 Students =
+CALCULATE ( COUNTROWS ( intervention_plan ),
+            LEFT ( intervention_plan[recommended_intervention], 10 ) = "Priority 1" )
+
+// Dynamic text for a card/title
+Insight Text =
+"Students below " & [Low Attendance Value] & "% attendance score "
+    & FORMAT ( [Attendance Score Gap], "0.0" ) & " points lower than those above 90%."

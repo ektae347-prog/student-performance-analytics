@@ -1,0 +1,601 @@
+student_id,gender,grade,section,parental_education,study_hours_week,internet_access,extracurricular,tutoring
+S0001,Female,9,C,Graduate,14.9,Yes,No,No
+S0002,Male,12,D,Graduate,13.1,Yes,No,No
+S0003,Male,11,C,Graduate,16.0,No,No,Yes
+S0004,Male,10,A,Graduate,,Yes,No,No
+S0005,Male,10,D,Below High School,4.5,Yes,Yes,No
+S0006,Male,12,C,Below High School,7.0,Yes,Yes,No
+S0007,Male,9,B,Graduate,10.5,Yes,No,Yes
+S0008,Female,11,C,Graduate,17.7,Yes,No,No
+S0009,Male,9,D,High School,,Yes,Yes,No
+S0010,Female,9,D,High School,12.1,No,No,Yes
+S0011,Male,11,D,Graduate,10.3,Yes,Yes,Yes
+S0012,male,12,B,Graduate,5.9,Yes,No,No
+S0013,Male,11,D,Graduate,17.4,Yes,Yes,No
+S0014,Male,12,B,High School,5.5,Yes,No,No
+S0015,Female,11,C,High School,9.3,Yes,No,No
+S0016,Male,12,C,Graduate,8.1,Yes,Yes,No
+S0017,Male,11,A,High School,18.1,No,Yes,No
+S0018,Female,9,B,Graduate,10.8,Yes,No,No
+S0019,Female,12,A,Graduate,2.3,Yes,Yes,No
+S0020,Female,10,A,Below High School,8.9,Yes,Yes,No
+S0021,Male,11,B,,7.1,No,No,No
+S0022,Female,10,B,High School,8.5,Yes,Yes,No
+S0023,Male,9,A,Postgraduate,12.7,Yes,Yes,Yes
+S0024,Female,12,B,Graduate,10.7,No,Yes,Yes
+S0025,Male,12,C,High School,12.9,Yes,No,No
+S0026,Female,11,A,Postgraduate,1.8,No,Yes,No
+S0027,Male,10,B,Graduate,7.1,Yes,Yes,Yes
+S0028,Female,12,B,Graduate,13.8,Yes,Yes,Yes
+S0029,Male,11,C,Postgraduate,10.5,Yes,Yes,No
+S0030,Male,10,B,Below High School,5.2,Yes,Yes,No
+S0031,Male,10,C,High School,10.0,Yes,Yes,Yes
+S0032,Male,9,B,Graduate,14.8,Yes,Yes,Yes
+S0033,Female,9,B,High School,11.4,Yes,Yes,No
+S0034,Female,11,B,Graduate,1.0,Yes,No,No
+S0035,Female,12,A,High School,12.5,Yes,Yes,No
+S0036,Female,9,C,Below High School,3.8,Yes,Yes,No
+S0037,Male,12,A,High School,10.6,Yes,No,No
+S0038,Male,12,B,High School,4.1,Yes,No,No
+S0039,Male,10,D,High School,5.5,No,No,No
+S0040,Male,11,D,High School,8.0,Yes,Yes,No
+S0041,Male,9,C,Postgraduate,9.9,Yes,Yes,No
+S0042,Male,12,D,High School,6.9,Yes,Yes,No
+S0043,Female,11,D,High School,11.4,Yes,Yes,No
+S0044,female,10,B,Below High School,7.6,Yes,Yes,No
+S0045,Male,9,D,High School,14.1,Yes,No,No
+S0046,Male,12,B,High School,10.5,Yes,Yes,No
+S0047,Female,10,B,Graduate,7.3,No,No,No
+S0048,Male,12,C,High School,7.1,Yes,Yes,No
+S0049,Male,11,D,Postgraduate,2.2,Yes,Yes,No
+S0050,Female,12,D,Postgraduate,12.5,No,No,Yes
+S0051,Female,12,B,Below High School,8.0,No,No,Yes
+S0052,Male,9,C,Below High School,1.0,Yes,Yes,No
+S0053,Male,10,A,Below High School,8.8,Yes,No,No
+S0054,female,10,D,Graduate,4.3,Yes,Yes,No
+S0055,Male,10,C,High School,12.6,Yes,Yes,No
+S0056,Female,9,C,Postgraduate,5.3,Yes,No,Yes
+S0057,Male,11,D,Graduate,5.3,Yes,Yes,No
+S0058,Female,9,C,Graduate,14.5,Yes,Yes,No
+S0059,Male,11,A,Graduate,14.5,Yes,No,Yes
+S0060,Female,11,B,Postgraduate,9.2,Yes,Yes,No
+S0061,Female,12,A,Below High School,8.4,Yes,Yes,Yes
+S0062,Male,11,C,High School,12.9,Yes,Yes,No
+S0063,Female,10,A,High School,1.5,Yes,No,Yes
+S0064,Female,12,A,Postgraduate,1.1,Yes,No,No
+S0065,Female,10,C,Graduate,10.6,No,Yes,No
+S0066,Male,10,C,Graduate,17.7,No,Yes,Yes
+S0067,Male,12,C,High School,9.4,No,No,Yes
+S0068,Male,10,D,Postgraduate,9.8,No,Yes,Yes
+S0069,Female,9,D,Graduate,15.4,No,No,No
+S0070,Female,10,A,Graduate,,Yes,No,No
+S0071,Female,12,D,Postgraduate,11.1,Yes,Yes,No
+S0072,Male,9,C,High School,8.6,Yes,Yes,No
+S0073,Male,10,C,High School,16.0,Yes,Yes,No
+S0074,Male,9,A,Graduate,6.2,Yes,Yes,No
+S0075,Male,11,C,High School,13.7,Yes,Yes,No
+S0076,Female,10,C,High School,4.8,No,No,No
+S0077,Male,10,C,High School,11.0,Yes,Yes,No
+S0078,Male,9,A,Below High School,9.2,No,No,No
+S0079,Female,11,C,Postgraduate,7.6,Yes,No,No
+S0080,Female,11,D,Graduate,7.3,Yes,Yes,Yes
+S0081,Female,12,C,High School,10.6,Yes,Yes,Yes
+S0082,Female,10,A,,15.7,Yes,Yes,No
+S0083,Female,9,D,High School,8.2,Yes,No,No
+S0084,Female,12,D,Graduate,9.8,Yes,Yes,No
+S0085,Male,11,A,Postgraduate,12.8,No,No,No
+S0086,Female,11,D,Postgraduate,8.7,Yes,No,No
+S0087,Female,9,B,High School,10.3,Yes,No,No
+S0088,Male,10,C,High School,10.9,Yes,No,No
+S0089,Male,12,B,Graduate,16.5,Yes,No,No
+S0090,Male,12,D,Graduate,9.1,Yes,No,Yes
+S0091,Female,10,D,Graduate,7.1,Yes,No,No
+S0092,Male,12,D,Graduate,12.5,Yes,No,No
+S0093,Female,12,D,Graduate,14.3,Yes,No,No
+S0094,Female,10,D,High School,7.2,Yes,No,No
+S0095,Male,12,A,High School,8.9,Yes,No,No
+S0096,Male,10,B,High School,11.4,Yes,No,No
+S0097,Male,9,C,Below High School,7.3,Yes,No,No
+S0098,Male,11,C,High School,9.3,Yes,No,No
+S0099,Male,11,A,Graduate,9.7,Yes,Yes,Yes
+S0100,Female,9,A,High School,13.2,Yes,No,Yes
+S0101,Female,12,C,High School,,Yes,No,No
+S0102,Female,9,C,Graduate,4.5,Yes,No,Yes
+S0103,Female,12,A,Graduate,1.6,Yes,Yes,No
+S0104,Male,9,A,High School,6.6,Yes,No,No
+S0105,Female,12,A,Graduate,4.2,No,No,No
+S0106,Male,12,C,Postgraduate,12.4,Yes,No,Yes
+S0107,Male,12,A,Graduate,7.8,No,No,No
+S0108,Male,11,C,Graduate,8.4,Yes,No,Yes
+S0109,Female,10,B,Below High School,6.7,Yes,No,No
+S0110,Female,11,B,Postgraduate,8.9,Yes,Yes,No
+S0111,Male,10,C,High School,15.6,Yes,No,Yes
+S0112,Male,12,C,Postgraduate,12.6,No,Yes,Yes
+S0113,Male,11,C,Graduate,10.8,Yes,No,Yes
+S0114,Male,10,D,Below High School,8.9,Yes,No,No
+S0115,Male,11,D,Below High School,6.8,Yes,Yes,No
+S0116,Female,11,D,Graduate,10.6,Yes,Yes,Yes
+S0117,Male,9,C,Graduate,10.7,Yes,Yes,Yes
+S0118,Female,9,B,Below High School,4.4,No,No,No
+S0119,Male,9,A,Graduate,7.8,Yes,No,Yes
+S0120,Male,9,C,Postgraduate,4.8,No,Yes,No
+S0121,Male,10,A,Graduate,13.9,Yes,No,No
+S0122,Female,11,D,Graduate,15.2,Yes,Yes,No
+S0123,Female,11,D,Below High School,5.8,Yes,No,No
+S0124,Male,10,A,Graduate,17.8,No,Yes,No
+S0125,Female,12,D,High School,9.0,Yes,Yes,No
+S0126,Female,11,A,Postgraduate,10.9,Yes,Yes,Yes
+S0127,Female,9,C,High School,10.0,Yes,No,Yes
+S0128,Female,12,A,Graduate,7.0,Yes,No,No
+S0129,Female,11,B,High School,10.0,Yes,No,Yes
+S0130,Male,11,C,High School,8.8,Yes,No,No
+S0131,Female,11,C,Graduate,13.7,Yes,Yes,No
+S0132,Female,11,B,Graduate,12.9,Yes,Yes,No
+S0133,Female,9,D,Graduate,,Yes,Yes,No
+S0134,Female,11,D,Postgraduate,15.2,No,No,No
+S0135,Female,12,A,Postgraduate,7.2,Yes,Yes,No
+S0136,Male,10,C,Postgraduate,11.8,No,No,Yes
+S0137,Female,11,C,,4.1,No,Yes,No
+S0138,Female,9,B,Graduate,13.8,Yes,Yes,No
+S0139,Female,10,C,Postgraduate,17.7,Yes,Yes,No
+S0140,Female,10,D,High School,7.2,Yes,Yes,No
+S0141,Female,12,D,Below High School,2.2,Yes,No,Yes
+S0142,Female,9,D,Graduate,7.8,Yes,No,No
+S0143,Male,10,C,Graduate,13.1,Yes,Yes,No
+S0144,Female,10,B,Graduate,11.5,Yes,No,Yes
+S0145,Male,12,D,Postgraduate,13.3,Yes,No,No
+S0146,Female,12,B,Graduate,14.8,No,No,No
+S0147,Female,9,C,High School,11.5,Yes,No,Yes
+S0148,Female,9,B,High School,15.2,Yes,No,No
+S0149,Male,12,B,High School,11.5,No,No,Yes
+S0150,Male,9,A,Below High School,14.6,Yes,No,No
+S0151,Female,12,D,Graduate,11.9,Yes,No,Yes
+S0152,Female,10,A,Postgraduate,13.3,No,No,No
+S0153,Female,12,A,High School,9.6,Yes,Yes,Yes
+S0154,Female,10,D,High School,6.7,Yes,No,No
+S0155,Male,10,C,Postgraduate,17.5,Yes,No,Yes
+S0156,Female,11,B,Below High School,10.8,No,Yes,No
+S0157,Female,9,C,Graduate,8.8,Yes,No,No
+S0158,Male,11,B,Graduate,12.6,Yes,No,Yes
+S0159,Female,11,A,Graduate,3.8,Yes,Yes,No
+S0160,Female,12,C,High School,9.1,Yes,No,No
+S0161,male,12,A,Graduate,17.0,Yes,No,No
+S0162,Female,11,C,High School,11.5,Yes,No,No
+S0163,Female,10,D,Graduate,2.2,No,Yes,Yes
+S0164,Female,10,D,Below High School,6.8,Yes,Yes,No
+S0165,Male,10,B,Graduate,18.2,Yes,No,No
+S0166,Female,12,D,Graduate,6.8,Yes,Yes,Yes
+S0167,Female,10,C,High School,5.4,Yes,Yes,No
+S0168,Female,9,B,High School,16.5,Yes,Yes,No
+S0169,Female,10,A,,10.6,Yes,Yes,No
+S0170,Male,9,B,High School,8.9,Yes,No,No
+S0171,Female,9,C,Below High School,6.4,Yes,No,No
+S0172,Male,9,D,Postgraduate,15.9,Yes,No,Yes
+S0173,Male,12,A,High School,9.2,Yes,No,No
+S0174,Male,11,C,Graduate,11.8,Yes,Yes,Yes
+S0175,Female,11,D,Postgraduate,12.1,No,Yes,No
+S0176,Male,10,D,Below High School,8.8,Yes,Yes,No
+S0177,Male,11,B,Graduate,12.8,No,Yes,No
+S0178,Female,9,A,Postgraduate,8.2,No,Yes,Yes
+S0179,Male,12,B,Graduate,16.5,Yes,Yes,No
+S0180,Male,11,D,High School,6.9,No,Yes,No
+S0181,Female,12,D,High School,2.6,Yes,Yes,No
+S0182,Male,9,C,Below High School,10.3,Yes,No,No
+S0183,Female,10,A,Graduate,11.4,Yes,No,No
+S0184,Male,11,A,Postgraduate,10.6,Yes,No,No
+S0185,Male,10,B,Postgraduate,,Yes,No,Yes
+S0186,Female,10,C,Below High School,6.2,Yes,No,No
+S0187,Male,9,A,Graduate,9.9,Yes,Yes,Yes
+S0188,Female,10,C,High School,9.3,Yes,No,No
+S0189,Male,9,C,Postgraduate,6.4,Yes,Yes,Yes
+S0190,Male,10,A,Below High School,7.0,Yes,Yes,No
+S0191,Female,11,A,Postgraduate,16.5,Yes,Yes,No
+S0192,Female,11,B,Postgraduate,3.4,Yes,Yes,No
+S0193,Female,11,C,Below High School,14.0,Yes,Yes,Yes
+S0194,female,10,D,Below High School,,Yes,No,Yes
+S0195,Female,12,B,Postgraduate,10.8,Yes,No,No
+S0196,Female,9,B,High School,5.8,Yes,No,No
+S0197,Female,10,D,Graduate,2.1,Yes,No,Yes
+S0198,Female,9,B,Postgraduate,12.5,Yes,No,No
+S0199,Male,10,B,Graduate,7.5,Yes,Yes,Yes
+S0200,Male,12,B,High School,4.0,Yes,No,No
+S0201,Male,10,A,High School,11.1,Yes,No,No
+S0202,Female,12,B,Below High School,13.8,Yes,Yes,Yes
+S0203,Male,10,C,Postgraduate,15.1,Yes,Yes,Yes
+S0204,Male,11,D,High School,11.5,Yes,No,Yes
+S0205,Female,10,C,High School,9.2,Yes,No,Yes
+S0206,Female,10,D,High School,14.2,Yes,No,No
+S0207,Male,12,C,Postgraduate,16.3,Yes,No,No
+S0208,Female,12,A,Below High School,12.1,Yes,Yes,No
+S0209,Male,10,B,Postgraduate,8.2,Yes,No,No
+S0210,Male,12,D,Graduate,11.5,Yes,Yes,No
+S0211,Female,10,A,Postgraduate,12.2,Yes,Yes,No
+S0212,Female,11,D,Postgraduate,3.8,No,No,No
+S0213,Male,12,C,Postgraduate,13.6,Yes,Yes,Yes
+S0214,Male,10,B,Postgraduate,18.4,Yes,No,No
+S0215,Female,11,D,High School,11.8,Yes,Yes,No
+S0216,Male,10,D,Graduate,15.7,No,No,Yes
+S0217,Male,9,A,Graduate,13.6,Yes,No,No
+S0218,Male,9,A,Graduate,8.1,No,No,No
+S0219,Male,10,C,Postgraduate,13.3,Yes,No,No
+S0220,Female,12,D,Postgraduate,5.1,Yes,No,Yes
+S0221,Female,9,A,Graduate,7.4,Yes,No,No
+S0222,Male,10,C,Graduate,17.2,Yes,No,No
+S0223,Female,11,A,Graduate,15.9,Yes,No,No
+S0224,Male,9,C,High School,6.8,No,Yes,No
+S0225,Male,11,C,,12.5,Yes,Yes,Yes
+S0226,Female,10,A,High School,9.7,No,Yes,No
+S0227,Male,12,C,,10.0,Yes,Yes,No
+S0228,Female,11,D,Below High School,9.6,Yes,Yes,No
+S0229,Male,11,D,Graduate,13.4,Yes,Yes,No
+S0230,Female,9,A,High School,10.6,Yes,No,No
+S0231,male,10,A,Postgraduate,14.6,Yes,Yes,No
+S0232,Male,12,A,Graduate,10.3,Yes,No,Yes
+S0233,Female,9,B,Below High School,9.3,Yes,Yes,No
+S0234,Male,12,A,High School,7.7,Yes,No,Yes
+S0235,Male,10,D,High School,18.4,Yes,Yes,No
+S0236,Male,11,D,Postgraduate,12.8,Yes,No,No
+S0237,Male,11,D,High School,13.9,Yes,Yes,No
+S0238,Male,10,A,Graduate,4.9,Yes,No,No
+S0239,Female,10,A,Postgraduate,8.5,Yes,Yes,No
+S0240,Male,11,D,Postgraduate,15.6,Yes,No,Yes
+S0241,Female,9,B,High School,10.9,Yes,Yes,Yes
+S0242,Male,11,C,Below High School,1.7,Yes,No,Yes
+S0243,Male,9,D,High School,17.0,Yes,Yes,No
+S0244,Female,11,A,Below High School,6.6,No,No,No
+S0245,Female,11,A,High School,13.9,Yes,No,Yes
+S0246,Male,9,A,Graduate,10.7,No,Yes,No
+S0247,Female,12,A,Postgraduate,11.9,Yes,Yes,No
+S0248,male,10,A,Graduate,12.4,Yes,Yes,No
+S0249,Female,12,D,Graduate,8.9,Yes,Yes,Yes
+S0250,Male,9,C,High School,6.4,Yes,No,No
+S0251,Female,9,D,Graduate,8.0,Yes,Yes,No
+S0252,Female,10,D,Graduate,15.1,Yes,Yes,No
+S0253,Male,9,D,Postgraduate,7.1,Yes,No,Yes
+S0254,Male,10,A,Postgraduate,3.1,Yes,Yes,No
+S0255,Female,11,B,High School,15.5,Yes,Yes,No
+S0256,Female,9,D,Below High School,8.1,Yes,No,No
+S0257,Male,11,A,High School,8.6,Yes,No,No
+S0258,Male,9,A,High School,5.9,Yes,No,No
+S0259,Female,9,C,Postgraduate,8.7,Yes,No,Yes
+S0260,Male,11,D,High School,9.9,Yes,No,No
+S0261,Male,12,D,Graduate,12.7,Yes,Yes,No
+S0262,male,9,D,Graduate,8.6,Yes,No,No
+S0263,Male,10,A,High School,,Yes,No,Yes
+S0264,Male,12,D,High School,7.6,Yes,No,No
+S0265,Female,12,D,Graduate,6.8,Yes,Yes,No
+S0266,Male,11,C,Graduate,16.0,Yes,Yes,No
+S0267,Male,10,D,High School,10.6,Yes,No,No
+S0268,Male,10,D,High School,6.1,Yes,No,No
+S0269,Female,11,B,Graduate,7.6,Yes,No,Yes
+S0270,Female,11,A,High School,15.6,Yes,No,No
+S0271,Male,10,B,Postgraduate,12.0,No,No,No
+S0272,Female,9,A,High School,7.4,Yes,Yes,No
+S0273,Male,9,A,Below High School,8.3,Yes,Yes,No
+S0274,Female,12,A,Graduate,12.7,Yes,Yes,No
+S0275,Male,10,C,Graduate,6.2,Yes,Yes,No
+S0276,Male,10,C,Graduate,11.2,No,Yes,Yes
+S0277,Female,10,C,High School,9.4,Yes,No,No
+S0278,Female,12,C,Postgraduate,15.0,Yes,No,No
+S0279,Male,9,C,Graduate,15.7,No,No,No
+S0280,Male,9,C,Graduate,8.6,Yes,Yes,Yes
+S0281,Female,10,A,High School,10.7,Yes,No,No
+S0282,Male,10,D,Below High School,10.0,Yes,No,No
+S0283,Male,11,B,Graduate,8.8,Yes,No,Yes
+S0284,Female,10,A,High School,13.4,Yes,No,No
+S0285,Female,10,D,Graduate,11.1,Yes,No,No
+S0286,Female,12,C,Below High School,8.7,No,No,No
+S0287,Female,9,A,Postgraduate,6.3,No,No,No
+S0288,Female,11,A,Graduate,13.4,Yes,No,No
+S0289,Female,11,A,Postgraduate,8.8,Yes,Yes,Yes
+S0290,male,10,B,Graduate,17.1,Yes,Yes,Yes
+S0291,Female,12,A,Below High School,8.1,Yes,Yes,No
+S0292,Male,10,C,Graduate,11.6,Yes,No,No
+S0293,Female,12,C,Graduate,17.1,Yes,No,No
+S0294,Female,10,D,Graduate,7.8,Yes,No,No
+S0295,Male,11,C,High School,1.5,Yes,Yes,Yes
+S0296,Male,11,C,Graduate,16.6,Yes,Yes,Yes
+S0297,Female,12,C,Postgraduate,12.2,Yes,No,No
+S0298,Female,10,A,Graduate,10.9,Yes,Yes,No
+S0299,Female,10,A,High School,8.8,Yes,No,No
+S0300,Male,9,C,Graduate,10.6,Yes,Yes,No
+S0301,Female,10,A,Graduate,4.4,No,No,No
+S0302,Female,12,A,Postgraduate,9.3,Yes,No,No
+S0303,Female,9,A,High School,9.9,No,No,No
+S0304,Female,12,D,High School,4.3,Yes,Yes,Yes
+S0305,Male,11,B,Graduate,10.5,Yes,No,No
+S0306,Male,9,C,Graduate,9.6,No,No,No
+S0307,Male,10,B,Graduate,6.0,Yes,No,No
+S0308,Female,11,A,Graduate,8.5,Yes,No,No
+S0309,Female,10,B,High School,10.2,Yes,Yes,No
+S0310,Female,9,A,Graduate,10.4,Yes,No,No
+S0311,Male,11,D,High School,9.0,Yes,Yes,Yes
+S0312,Male,11,A,High School,10.7,Yes,Yes,No
+S0313,Male,9,B,Graduate,7.8,No,No,No
+S0314,Male,10,D,Graduate,12.3,Yes,No,Yes
+S0315,Male,9,C,Postgraduate,13.7,Yes,Yes,No
+S0316,Male,11,B,High School,5.4,Yes,Yes,Yes
+S0317,Female,11,C,Below High School,10.5,No,Yes,Yes
+S0318,Female,11,D,Postgraduate,10.0,Yes,Yes,No
+S0319,Female,12,B,High School,9.4,Yes,No,No
+S0320,Male,12,C,High School,15.4,Yes,Yes,No
+S0321,Female,10,D,High School,11.9,Yes,No,No
+S0322,Male,9,C,Graduate,1.0,Yes,Yes,No
+S0323,Male,11,B,Postgraduate,11.0,Yes,Yes,No
+S0324,male,12,A,Graduate,15.3,Yes,No,No
+S0325,Female,12,A,Graduate,10.2,Yes,Yes,No
+S0326,Female,9,D,High School,11.8,Yes,Yes,Yes
+S0327,female,9,C,High School,7.8,Yes,No,No
+S0328,Male,9,B,Graduate,6.7,Yes,No,Yes
+S0329,Male,9,B,High School,11.7,Yes,No,No
+S0330,Male,11,C,High School,3.7,Yes,Yes,No
+S0331,Female,11,C,High School,8.5,Yes,No,No
+S0332,Female,10,C,High School,13.6,Yes,No,No
+S0333,Female,10,B,Graduate,,Yes,No,No
+S0334,Male,12,C,Graduate,6.2,Yes,Yes,Yes
+S0335,Male,10,B,Below High School,6.5,Yes,Yes,No
+S0336,Female,12,D,Graduate,10.4,Yes,Yes,No
+S0337,Male,12,A,Graduate,10.3,Yes,Yes,Yes
+S0338,Female,10,A,Graduate,15.4,Yes,No,No
+S0339,Male,9,B,Graduate,14.9,Yes,Yes,No
+S0340,Female,12,C,High School,13.0,Yes,Yes,Yes
+S0341,Female,11,C,Graduate,9.7,Yes,Yes,No
+S0342,Male,10,B,,8.7,Yes,No,No
+S0343,Female,11,D,High School,9.3,Yes,Yes,Yes
+S0344,Female,11,B,High School,13.4,Yes,Yes,No
+S0345,Female,12,A,Graduate,3.9,Yes,Yes,No
+S0346,Female,10,A,High School,11.9,No,No,No
+S0347,Male,12,D,High School,15.3,Yes,Yes,No
+S0348,Male,12,A,Graduate,10.7,No,No,Yes
+S0349,Male,9,D,High School,8.6,Yes,Yes,No
+S0350,Female,9,B,High School,13.5,Yes,Yes,No
+S0351,Male,11,A,High School,1.0,Yes,Yes,Yes
+S0352,Female,9,B,High School,9.9,Yes,Yes,No
+S0353,Female,10,C,High School,,No,Yes,Yes
+S0354,Female,10,B,High School,10.4,Yes,No,No
+S0355,Male,12,D,High School,13.2,No,No,Yes
+S0356,Male,12,C,Graduate,11.5,Yes,Yes,No
+S0357,Male,9,B,Postgraduate,7.1,No,Yes,No
+S0358,Male,12,C,,10.6,No,No,No
+S0359,Male,9,D,Graduate,10.2,Yes,Yes,No
+S0360,Male,11,B,Postgraduate,11.3,Yes,Yes,No
+S0361,Male,12,A,Postgraduate,11.5,Yes,Yes,No
+S0362,Female,12,B,Graduate,14.4,Yes,Yes,No
+S0363,Female,9,D,Postgraduate,8.2,No,No,No
+S0364,Female,12,A,Postgraduate,12.2,Yes,No,No
+S0365,Male,9,D,Graduate,15.0,Yes,No,No
+S0366,Female,11,C,Graduate,3.1,Yes,No,Yes
+S0367,Male,10,C,Below High School,9.9,Yes,Yes,No
+S0368,Female,10,B,Below High School,7.1,No,Yes,No
+S0369,Male,9,D,Graduate,9.4,Yes,Yes,Yes
+S0370,Female,12,A,Graduate,10.5,Yes,Yes,Yes
+S0371,Female,10,B,High School,8.6,No,Yes,No
+S0372,Female,11,B,Graduate,17.5,Yes,Yes,No
+S0373,Female,10,B,Graduate,7.6,Yes,No,Yes
+S0374,Male,10,B,Postgraduate,6.9,Yes,Yes,No
+S0375,Female,12,A,Below High School,8.1,Yes,Yes,No
+S0376,Male,9,A,High School,15.5,Yes,No,No
+S0377,Female,11,A,Graduate,9.3,No,Yes,No
+S0378,Female,11,C,Postgraduate,,Yes,No,No
+S0379,male,10,B,Postgraduate,8.9,No,Yes,No
+S0380,Female,10,C,Postgraduate,7.9,No,No,No
+S0381,Male,9,C,Postgraduate,11.2,Yes,Yes,No
+S0382,Male,12,C,High School,,Yes,No,No
+S0383,Male,12,C,High School,16.8,Yes,Yes,Yes
+S0384,Female,9,C,High School,6.9,Yes,Yes,Yes
+S0385,Female,9,C,Graduate,12.2,Yes,No,No
+S0386,Male,9,C,Postgraduate,11.9,Yes,Yes,No
+S0387,Female,9,C,High School,4.4,Yes,Yes,No
+S0388,Female,12,B,Graduate,12.9,Yes,No,No
+S0389,Female,12,A,High School,13.0,Yes,Yes,No
+S0390,Male,9,D,High School,12.2,Yes,No,No
+S0391,Male,11,B,High School,9.8,Yes,No,No
+S0392,Male,9,C,Below High School,8.1,Yes,Yes,Yes
+S0393,Male,10,A,Postgraduate,13.6,Yes,No,No
+S0394,Female,11,B,High School,11.3,Yes,Yes,No
+S0395,Male,11,C,Postgraduate,10.5,No,No,No
+S0396,Female,12,C,Graduate,3.5,No,Yes,Yes
+S0397,Male,9,C,High School,8.8,Yes,Yes,No
+S0398,Female,9,B,High School,14.1,Yes,Yes,No
+S0399,Male,10,D,Graduate,7.1,Yes,No,No
+S0400,Female,10,C,High School,12.7,Yes,No,Yes
+S0401,Female,12,D,Postgraduate,10.7,Yes,No,No
+S0402,Female,12,C,High School,13.6,Yes,No,No
+S0403,Female,10,C,Graduate,12.3,No,No,No
+S0404,Female,12,D,Graduate,7.2,No,No,Yes
+S0405,Male,10,A,High School,2.9,No,No,No
+S0406,female,11,D,High School,10.1,Yes,No,No
+S0407,Male,10,D,,14.9,Yes,Yes,No
+S0408,Female,9,C,High School,9.0,No,No,No
+S0409,Male,12,C,High School,9.4,Yes,No,No
+S0410,Female,9,C,High School,7.8,Yes,Yes,No
+S0411,Male,9,B,High School,13.6,Yes,Yes,Yes
+S0412,Male,9,D,Graduate,12.2,Yes,Yes,No
+S0413,Female,10,A,Graduate,12.2,Yes,No,No
+S0414,Male,9,B,High School,12.1,Yes,Yes,Yes
+S0415,Female,9,C,Postgraduate,11.2,Yes,No,Yes
+S0416,Female,11,D,High School,8.7,Yes,Yes,Yes
+S0417,Male,12,B,Below High School,6.8,Yes,No,Yes
+S0418,Male,9,B,Graduate,9.4,Yes,Yes,No
+S0419,Female,10,A,Postgraduate,20.1,Yes,No,Yes
+S0420,Female,11,A,Below High School,11.9,No,No,No
+S0421,Male,12,A,High School,9.1,Yes,Yes,No
+S0422,Male,11,A,Graduate,,Yes,Yes,No
+S0423,Male,12,D,Graduate,6.3,Yes,Yes,Yes
+S0424,Male,11,D,Below High School,17.6,Yes,Yes,No
+S0425,Male,10,D,High School,8.0,No,No,No
+S0426,Female,9,A,Graduate,9.4,Yes,No,No
+S0427,Male,12,A,High School,12.2,Yes,No,No
+S0428,Female,12,B,High School,8.7,Yes,No,Yes
+S0429,Male,9,C,High School,10.4,Yes,Yes,Yes
+S0430,Female,11,B,High School,9.9,No,No,No
+S0431,Male,9,B,Graduate,9.5,Yes,No,No
+S0432,Male,11,A,Postgraduate,11.8,No,Yes,No
+S0433,Male,12,C,Graduate,9.7,No,No,Yes
+S0434,Male,9,B,Graduate,16.7,Yes,Yes,No
+S0435,Female,10,A,Postgraduate,9.0,Yes,No,Yes
+S0436,Male,9,C,High School,5.8,Yes,No,No
+S0437,Female,11,D,High School,8.2,Yes,No,No
+S0438,Female,12,A,Postgraduate,14.9,Yes,Yes,No
+S0439,Female,9,B,High School,9.6,Yes,No,Yes
+S0440,Female,10,D,Graduate,,Yes,Yes,No
+S0441,Female,12,C,Graduate,9.5,Yes,No,No
+S0442,Male,10,D,Below High School,10.9,Yes,Yes,No
+S0443,Male,9,B,Graduate,6.9,Yes,No,No
+S0444,Male,10,B,High School,8.3,Yes,No,No
+S0445,Female,11,C,High School,13.1,No,Yes,No
+S0446,Female,11,A,Graduate,13.6,Yes,Yes,Yes
+S0447,Female,10,A,High School,7.5,Yes,No,No
+S0448,Male,12,C,Graduate,9.0,Yes,Yes,Yes
+S0449,Male,11,C,Postgraduate,10.7,Yes,Yes,No
+S0450,Female,10,A,Graduate,15.8,Yes,Yes,No
+S0451,Male,12,C,High School,,Yes,Yes,Yes
+S0452,Female,12,B,High School,11.9,No,No,Yes
+S0453,Female,10,C,High School,4.5,No,No,Yes
+S0454,Female,9,D,High School,9.0,No,Yes,Yes
+S0455,Female,11,A,Postgraduate,11.0,Yes,No,No
+S0456,Male,11,D,High School,10.5,Yes,Yes,No
+S0457,Male,9,B,High School,10.8,Yes,Yes,Yes
+S0458,Female,11,D,Postgraduate,9.5,No,No,No
+S0459,Male,12,B,High School,8.1,Yes,Yes,No
+S0460,Male,9,B,Below High School,4.1,Yes,No,No
+S0461,Male,11,D,High School,12.6,Yes,No,No
+S0462,Male,9,C,Graduate,12.1,Yes,No,No
+S0463,Female,11,A,Graduate,11.1,Yes,No,No
+S0464,Male,10,C,High School,4.7,Yes,Yes,No
+S0465,Female,9,D,Postgraduate,10.7,Yes,Yes,No
+S0466,Male,12,B,Postgraduate,13.3,Yes,Yes,No
+S0467,Female,9,D,Postgraduate,6.0,Yes,No,Yes
+S0468,Male,11,C,High School,8.4,No,No,No
+S0469,Female,9,B,Below High School,9.1,Yes,Yes,No
+S0470,Female,12,A,Postgraduate,17.5,Yes,Yes,No
+S0471,Male,11,C,High School,17.6,Yes,Yes,No
+S0472,Male,12,A,Graduate,7.9,Yes,No,No
+S0473,Female,10,D,Graduate,19.5,Yes,No,No
+S0474,Male,10,C,High School,7.5,Yes,No,No
+S0475,Male,11,B,Graduate,12.2,No,No,No
+S0476,Female,12,A,Postgraduate,12.3,Yes,Yes,No
+S0477,Male,12,C,Graduate,9.3,Yes,No,No
+S0478,Female,9,A,High School,10.3,Yes,No,No
+S0479,Male,11,B,Postgraduate,8.9,Yes,Yes,No
+S0480,Female,9,D,Graduate,12.3,Yes,No,Yes
+S0481,Female,10,D,Graduate,11.1,Yes,Yes,No
+S0482,Male,12,D,Graduate,13.2,Yes,No,Yes
+S0483,Male,10,D,Graduate,10.2,Yes,No,No
+S0484,Male,12,C,High School,11.3,Yes,No,Yes
+S0485,Male,10,A,,,Yes,No,No
+S0486,Male,9,D,High School,9.9,No,Yes,No
+S0487,Male,10,D,Graduate,14.4,Yes,No,Yes
+S0488,Male,11,D,Graduate,8.8,No,No,No
+S0489,Female,12,C,Graduate,5.8,No,No,No
+S0490,Female,11,A,High School,5.6,No,No,No
+S0491,Female,12,C,Graduate,7.1,Yes,Yes,Yes
+S0492,Male,12,B,Postgraduate,13.5,Yes,No,No
+S0493,Female,12,D,High School,15.2,Yes,No,No
+S0494,Female,11,B,Graduate,8.3,Yes,Yes,No
+S0495,Male,10,B,Graduate,15.3,Yes,No,Yes
+S0496,Female,10,A,Graduate,16.2,Yes,No,No
+S0497,Female,9,D,High School,7.3,No,No,No
+S0498,Male,10,D,Graduate,9.1,Yes,No,No
+S0499,Male,12,A,Postgraduate,14.5,Yes,Yes,No
+S0500,Female,10,B,,10.7,Yes,No,Yes
+S0501,Female,9,B,Postgraduate,11.6,Yes,Yes,No
+S0502,Female,11,B,Postgraduate,11.2,Yes,No,No
+S0503,Male,12,D,High School,7.7,Yes,No,No
+S0504,Male,12,A,Graduate,1.7,No,No,No
+S0505,Female,10,B,,11.4,Yes,No,No
+S0506,Male,10,A,Postgraduate,8.3,Yes,No,No
+S0507,female,11,A,Below High School,19.6,Yes,No,No
+S0508,Female,9,D,High School,6.9,Yes,Yes,No
+S0509,Male,10,D,Postgraduate,7.6,Yes,No,Yes
+S0510,Female,9,A,High School,12.7,Yes,No,No
+S0511,Female,12,C,Graduate,15.4,Yes,Yes,No
+S0512,Female,11,A,High School,7.5,Yes,No,No
+S0513,Male,12,A,Postgraduate,12.1,Yes,No,Yes
+S0514,Male,12,B,Postgraduate,5.0,Yes,No,Yes
+S0515,Male,12,A,High School,6.0,Yes,No,No
+S0516,Female,9,B,Graduate,7.6,No,Yes,Yes
+S0517,Female,12,D,High School,4.7,Yes,No,Yes
+S0518,Male,9,C,Graduate,11.0,No,Yes,No
+S0519,Female,10,C,Graduate,1.0,Yes,Yes,No
+S0520,Male,11,B,Graduate,3.9,Yes,No,Yes
+S0521,Male,10,A,Below High School,10.1,Yes,Yes,Yes
+S0522,Female,9,A,High School,6.3,Yes,Yes,No
+S0523,Male,9,B,Graduate,8.8,No,No,No
+S0524,Female,12,A,Graduate,13.3,Yes,Yes,No
+S0525,Female,10,D,Graduate,13.5,No,Yes,Yes
+S0526,Male,10,D,Below High School,13.5,No,Yes,Yes
+S0527,Male,12,D,High School,14.4,Yes,No,No
+S0528,Male,9,C,Postgraduate,11.5,Yes,Yes,No
+S0529,Male,12,C,Below High School,10.8,Yes,No,No
+S0530,Male,12,C,High School,12.8,Yes,No,No
+S0531,Male,11,B,Postgraduate,14.7,Yes,Yes,No
+S0532,Male,9,C,Below High School,9.3,Yes,No,No
+S0533,Female,9,D,Graduate,6.9,No,Yes,No
+S0534,Male,10,D,High School,7.8,Yes,No,Yes
+S0535,Male,11,C,Postgraduate,14.0,Yes,Yes,No
+S0536,Female,9,A,Graduate,11.9,Yes,No,No
+S0537,Female,10,C,Postgraduate,7.8,Yes,Yes,No
+S0538,Female,9,B,High School,9.4,No,No,No
+S0539,Female,11,C,Graduate,7.6,Yes,Yes,No
+S0540,Male,9,C,Graduate,17.7,No,No,No
+S0541,Female,11,D,High School,9.2,Yes,Yes,No
+S0542,Male,9,B,High School,6.2,No,Yes,No
+S0543,Male,9,D,Below High School,11.6,Yes,Yes,No
+S0544,Male,9,D,Postgraduate,8.1,No,No,Yes
+S0545,Female,12,B,Graduate,4.1,Yes,No,No
+S0546,Female,9,B,Graduate,9.8,Yes,No,No
+S0547,Male,10,C,Graduate,7.9,Yes,No,No
+S0548,Male,11,D,Graduate,9.5,Yes,No,Yes
+S0549,Male,11,C,Graduate,9.8,Yes,Yes,No
+S0550,Male,11,D,High School,16.9,Yes,No,Yes
+S0551,Female,12,B,Graduate,10.5,Yes,No,Yes
+S0552,Male,10,C,High School,7.7,No,No,No
+S0553,female,12,B,Postgraduate,13.1,Yes,No,Yes
+S0554,Female,10,D,Graduate,9.9,Yes,No,No
+S0555,Male,12,B,High School,17.0,Yes,No,No
+S0556,Female,11,C,Graduate,,Yes,No,No
+S0557,Female,11,A,High School,2.3,Yes,Yes,No
+S0558,Female,12,D,Postgraduate,12.8,Yes,No,No
+S0559,Female,12,B,Postgraduate,18.2,Yes,No,No
+S0560,Male,12,B,Postgraduate,15.9,No,No,No
+S0561,Female,11,C,High School,17.0,Yes,No,No
+S0562,Male,9,B,High School,9.8,Yes,Yes,No
+S0563,Male,10,D,High School,12.8,Yes,Yes,No
+S0564,Female,9,C,Below High School,7.3,Yes,Yes,Yes
+S0565,Female,12,C,High School,12.7,Yes,No,No
+S0566,Male,9,A,Below High School,6.5,Yes,Yes,No
+S0567,Male,9,A,Postgraduate,8.6,Yes,No,Yes
+S0568,Male,9,B,Below High School,3.3,Yes,No,No
+S0569,Male,11,D,High School,13.9,Yes,No,No
+S0570,Female,11,D,Graduate,9.9,Yes,Yes,No
+S0571,Female,12,C,Graduate,13.6,No,No,Yes
+S0572,Male,10,C,Graduate,5.9,No,Yes,Yes
+S0573,Female,10,B,Graduate,10.8,No,No,No
+S0574,Male,9,A,Postgraduate,6.8,No,Yes,No
+S0575,Male,9,A,Graduate,11.1,Yes,Yes,No
+S0576,Male,10,B,Graduate,14.9,Yes,Yes,No
+S0577,Female,12,B,Graduate,14.0,Yes,No,Yes
+S0578,Female,11,A,High School,6.6,Yes,Yes,Yes
+S0579,Female,12,B,High School,1.0,Yes,No,No
+S0580,Female,9,A,Graduate,8.4,No,No,No
+S0581,Male,9,C,High School,16.2,Yes,No,No
+S0582,Female,12,D,Graduate,10.6,Yes,Yes,No
+S0583,Female,9,C,High School,8.6,Yes,Yes,No
+S0584,Female,9,B,High School,,Yes,Yes,No
+S0585,Female,10,B,High School,14.1,Yes,Yes,No
+S0586,Male,12,B,Postgraduate,7.8,Yes,No,No
+S0587,Female,11,A,High School,8.7,Yes,Yes,No
+S0588,Male,9,C,Graduate,11.2,Yes,Yes,No
+S0589,Female,12,C,Postgraduate,10.1,No,Yes,No
+S0590,Male,12,A,Below High School,14.5,Yes,No,No
+S0591,Female,12,B,Graduate,10.8,Yes,Yes,Yes
+S0592,Female,12,B,High School,14.8,Yes,No,Yes
+S0593,Male,9,A,High School,15.2,Yes,Yes,No
+S0594,Male,12,C,Graduate,7.3,Yes,No,No
+S0595,Male,10,C,Postgraduate,14.4,No,No,No
+S0596,Female,12,C,High School,8.9,Yes,Yes,No
+S0597,Female,11,C,Graduate,1.9,Yes,Yes,No
+S0598,Male,12,D,High School,1.0,Yes,Yes,No
+S0599,Female,11,D,Graduate,3.6,No,Yes,No
+S0600,Male,11,C,Graduate,12.5,Yes,Yes,No
